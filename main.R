@@ -1,11 +1,11 @@
 ###########################################################################
-#		Advanced Econometrics                                                 #
+#	Advanced Econometrics                                                 #
 #   Project Codes                                                         #
 #   University of Warsaw, Faculty of Economic Sciences                    #
-#   Nurdan Besli, Mustafa Sanli                                    #
+#   Nurdan Besli, Mustafa Sanli                                           #
 ###########################################################################
 
-setwd("C:/Users/nurdanbesli/Desktop/econometrics/3/AE_Lab_03")
+setwd("C:/Users/nurdanbesli/Desktop/econometrics")
 Sys.setenv(LANG = "en")
 options(scipen = 5)
 
@@ -142,7 +142,7 @@ marg_effects <- margins(final_logit)
 print(marg_effects)
 
 
-# ODD RATÝOS
+# ODD RATÃOS
 summary_final <- summary(final_logit)
 odds_ratios <- exp(summary_final$coefficients)
 print(odds_ratios)
