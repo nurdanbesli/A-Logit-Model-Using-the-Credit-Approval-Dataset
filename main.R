@@ -1,5 +1,5 @@
 ###########################################################################
-#	Advanced Econometrics                                                 #
+#   Advanced Econometrics                                                 #
 #   Project Codes                                                         #
 #   University of Warsaw, Faculty of Economic Sciences                    #
 #   Nurdan Besli, Mustafa Sanli                                           #
